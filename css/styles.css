@@ -6,12 +6,12 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f2e0;
-    color: #4c3c32;
+    background-color: #b9b6ad;
+    color: #413935;
 }
 
 header {
-    background-color: #fff;
+    background-color: #b1a7a7;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
@@ -48,7 +48,7 @@ nav a:hover {
     padding: 150px 0;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    color: white;
+    color: rgb(32, 31, 31);
 }
 
 .hero h1 {
@@ -71,23 +71,44 @@ nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #7e685b;
+    background-color: #3a3737;
 }
 
 .menu {
     padding: 100px 0;
     text-align: center;
+    background-color: #5e5959;
 }
 
 .menu h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: rgb(31, 25, 25);
+
 }
+.menu p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(31, 25, 25);
+
+}
+
+
+.menu  {
+    text-align: center;
+    padding: 150px 0;
+    background-image: url('itlog.jpg');
+    background-size: cover;
+    color: rgb(32, 31, 31);
+}
+
+
 
 .about {
     padding: 100px 0;
     text-align: center;
     background-color: #ede4d6;
+    color: rgb(29, 22, 22);
 }
 
 .about h2 {
@@ -96,9 +117,10 @@ nav a:hover {
 }
 
 .about p {
-    font-size: 18px;
+    font-size: 25px;
     max-width: 800px;
     margin: 0 auto;
+    
 }
 
 .contact {
@@ -115,7 +137,23 @@ nav a:hover {
 
 .contact p {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 17px;
+
+
+}
+
+.contact p1 {
+    font-size: 18px;
+    margin-bottom: 17px;
+
+
+}
+
+.contact p2 {
+    font-size: 18px;
+    margin-bottom: 17px;
+
+
 }
 
 footer {
