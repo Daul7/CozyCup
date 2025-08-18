@@ -12,14 +12,16 @@
             <img src="img/witwow.png" alt="CozyCup Café Logo">
 
 # About to Authors
- <img src="img/russel.png" alt="CozyCup Café Logo" width = 150px><br>
-  Name : John Russel P. Cabailo
-  Email : 202380167@psu.palawan.edu.ph
-   <img src="img/daga.png" alt="CozyCup Café Logo" width = 150px><br> 
-Name : Datu Herosanib Lachica
-Email : 202380035@psu.palawan.edu.ph
+| <img src="img/russel.png" alt="Russel" width="150px"><br> **Name:** John Russel P. Cabailo <br> **Email:** 202380167@psu.palawan.edu.ph | <img src="img/daga.png" alt="Datu" width="150px"><br> **Name:** Datu Herosanib Lachica <br> **Email:** 202380035@psu.palawan.edu.ph |
+|---|---|
 
-<a href = facebook.com> <img src="img/facebook.jpeg" alt="CozyCup Café Logo" width = 50px> </a><a href = github.com> <img src="img/github.png" alt="CozyCup Café Logo" width = 50px> </a>
-
+<p align="center">
+  <a href="https://facebook.com">
+    <img src="img/facebook.jpeg" alt="Facebook" width="50px">
+  </a>
+  <a href="https://github.com">
+    <img src="img/github.png" alt="GitHub" width="50px">
+  </a>
+</p>
 
 
