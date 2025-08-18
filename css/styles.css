@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -6,9 +6,15 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #b9b6ad;
+    background-image: url(/img/cabailo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;     
+    background-position: center; 
+    height: 100vh;              
+    margin: 0;                  
     color: #413935;
 }
+
 
 header {
     background-color: #b1a7a7;
@@ -75,31 +81,44 @@ nav a:hover {
 }
 
 .menu {
-    padding: 100px 0;
+    padding: 80px 20px;
     text-align: center;
     background-color: #5e5959;
 }
 
 .menu h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 32px;
+    margin-bottom: 40px;
     color: rgb(31, 25, 25);
-
-}
-.menu p {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: rgb(31, 25, 25);
-
 }
 
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    flex-wrap: wrap; 
+}
 
-.menu  {
-    text-align: center;
-    padding: 150px 0;
-    background-image: url('itlog.jpg');
-    background-size: cover;
-    color: rgb(32, 31, 31);
+.menu .item {
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    width: 180px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.menu .item img {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.menu .item p {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
 }
 
 
